@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+    <name>Campos - CPF</name>
+    <author>Lisandro Silva</author>
+    <creationDate>Julho 2019</creationDate>
+    <copyright>Copyright (C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>lisandro.t.silva@gmail.com</authorEmail>
+    <authorUrl>www.joomla.org</authorUrl>
+    <version>1.0.0</version>
+    <description>Campo com Mascara de CPF</description>
+    <files>
+        <filename plugin="cpf">cpf.php</filename>
+        <folder>params</folder>
+        <folder>tmpl</folder>
+    </files>
+    <media folder="media" destination="plg_fields_cpf">
+        <folder>js</folder>
+    </media>
+    <config>
+        <fields name="params">
+            <fieldset name="basic"></fieldset>
+        </fields>
+    </config>
+</extension>
