@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="fieldparams">
+        <fieldset name="fieldparams">
+            <field name="type_mask" type="list" label="PLG_FIELDS_MASK_PARAMS_TYPE_MASK" description="PLG_FIELDS_MASK_PARAMS_TYPE_MASK_DESC" size="7">
+                <option value="cep">CEP</option>
+                <option value="cpf">CPF</option>
+                <option value="cnpj">CNPJ</option>
+                <option value="phone">Telefone</option>
+                <option value="money">Dinheiro</option>
+                <option value="ip_address">Endereço IP</option>
+                <option value="0">Outros</option>
+            </field>
+
+            <field name="mask" type="text" showon="type_mask:0" default="00000-000" label="PLG_FIELDS_MASK_PARAMS_MASK" description="PLG_FIELDS_MASK_PARAMS_MASK_DESC" />
+        </fieldset>
+    </fields>
+</form>
