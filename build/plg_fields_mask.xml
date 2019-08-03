@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+	<update>
+		<name>plg_fields_mask</name>
+		<element>mask</element>
+		<type>plugin</type>
+		<folder>fields</folder>
+		<client>0</client>
+		<version>1.0.0</version>
+		<infourl title="Repositório plg_fields_mask">https://github.com/lisandroTSilva/jplugin</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/lisandroTSilva/jplugin/raw/master/build/plg_fields_mask.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.[0123456789]"/>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+	</update>
+</updates>
