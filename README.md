@@ -2,6 +2,8 @@
 
 ## Campos - Máscara
 
+Utilizado jQuery e o plugin https://igorescobar.github.io/jQuery-Mask-Plugin/
+
 ### Configuração do campo
 ![Configuração do campo](assets/plg_fields_mask/field.png)
 
